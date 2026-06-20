@@ -35,7 +35,11 @@ button { min-height: 48px; }
 .guide-label { margin: 0; font-size: 0.75rem; color: #2563eb; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; }
 .guide-header h2 { margin: 4px 0 0; font-size: 1rem; }
 .guide-tip { font-size: 0.85rem; color: #64748b; }
-.guide-cards { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+.guide-cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
 .guide-card {
   display: flex;
   flex-direction: column;
@@ -46,7 +50,7 @@ button { min-height: 48px; }
   color: #0f172a;
   border-radius: 14px;
   padding: 16px 14px;
-  min-height: 96px;
+  min-height: 110px;
   cursor: pointer;
   transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
 }
